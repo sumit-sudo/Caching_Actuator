@@ -10,6 +10,7 @@ public class ChachingAcuatorSecurityH2DatabaseApplication {
 
 	public static void main(String[] args) {
 		System.out.println("DEV1 is working");
+		System.out.println("DEV2 is working and made the changes, final changes");
 		SpringApplication.run(ChachingAcuatorSecurityH2DatabaseApplication.class, args);
 	}
 	
