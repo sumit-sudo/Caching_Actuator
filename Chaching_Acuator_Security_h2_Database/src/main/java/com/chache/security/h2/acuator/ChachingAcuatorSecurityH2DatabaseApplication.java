@@ -9,6 +9,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class ChachingAcuatorSecurityH2DatabaseApplication {
 
 	public static void main(String[] args) {
+		System.out.println("DEV1 is working");
 		SpringApplication.run(ChachingAcuatorSecurityH2DatabaseApplication.class, args);
 	}
 	
